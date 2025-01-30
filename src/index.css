@@ -15,6 +15,12 @@
 
 @layer base {
   body {
-    @apply text-lg font-public-sans;
+    @apply font-public-sans;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply lg:max-w-[1024px] mx-auto px-6;
   }
 }
