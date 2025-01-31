@@ -24,10 +24,12 @@ const FooterSection = () => {
         {/** Menu */}
         <div className="flex flex-col space-y-4 text-center">
           {LARGE_MENU_LIST.map((menuItem) => (
-            <Link to={menuItem.path} className="cursor-pointer">
-              <div key={menuItem.name} className="capitalize text-white">
-                {menuItem.name}
-              </div>
+            <Link
+              to={menuItem.path}
+              key={menuItem.name}
+              className="cursor-pointer "
+            >
+              <div className="capitalize text-white">{menuItem.name}</div>
             </Link>
           ))}
         </div>
