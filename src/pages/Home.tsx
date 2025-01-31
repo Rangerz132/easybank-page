@@ -1,3 +1,4 @@
+import FooterSection from "../components/FooterSection";
 import HeroSection from "../components/HeroSection";
 import LatestArticlesSection from "../components/LatestArticlesSection";
 import Nav from "../components/Nav";
@@ -15,6 +16,9 @@ function Home() {
       </div>
       <div className="bg-neutral-very-light-gray py-20">
         <LatestArticlesSection />
+      </div>
+      <div className="bg-primary-dark-blue py-10">
+        <FooterSection />
       </div>
     </div>
   );

@@ -8,6 +8,13 @@ import ArticleImage1 from "./assets/images/image-currency.jpg";
 import ArticleImage2 from "./assets/images/image-restaurant.jpg";
 import ArticleImage3 from "./assets/images/image-plane.jpg";
 import ArticleImage4 from "./assets/images/image-confetti.jpg";
+import { MediaType } from "./types/mediaType";
+import Facebook from "./assets/images/icon-facebook.svg";
+import Youtube from "./assets/images/icon-youtube.svg";
+import Twitter from "./assets/images/icon-twitter.svg";
+import Pinterest from "./assets/images/icon-pinterest.svg";
+import Instagram from "./assets/images/icon-instagram.svg";
+import { MenuType } from "./types/menuType";
 
 const ONLINE_BANKING: PerkType = {
   name: "Online banking",
@@ -97,4 +104,86 @@ export const LATEST_ARTICLES: ArticleType[] = [
   ARTICLE_2,
   ARTICLE_3,
   ARTICLE_4,
+];
+
+const FACEBOOK: MediaType = {
+  name: "Facebook",
+  url: "#",
+  icon: {
+    path: Facebook,
+    alt: "Facebook icon",
+  },
+};
+const YOUTUBE: MediaType = {
+  name: "Youtube",
+  url: "#",
+  icon: {
+    path: Youtube,
+    alt: "Youtube icon",
+  },
+};
+const TWITTER: MediaType = {
+  name: "Twitter",
+  url: "#",
+  icon: {
+    path: Twitter,
+    alt: "Twitter icon",
+  },
+};
+const PINTEREST: MediaType = {
+  name: "Pinterest",
+  url: "#",
+  icon: {
+    path: Pinterest,
+    alt: "Pinterest icon",
+  },
+};
+const INSTAGRAM: MediaType = {
+  name: "Instagram",
+  url: "#",
+  icon: {
+    path: Instagram,
+    alt: "Instagram icon",
+  },
+};
+export const MEDIAS: MediaType[] = [
+  FACEBOOK,
+  YOUTUBE,
+  TWITTER,
+  PINTEREST,
+  INSTAGRAM,
+];
+
+const ABOUT: MenuType = {
+  name: "about",
+  path: "/about",
+};
+const CONTACT: MenuType = {
+  name: "contact",
+  path: "/contact",
+};
+const BLOG: MenuType = {
+  name: "blog",
+  path: "/blog",
+};
+const CAREERS: MenuType = {
+  name: "careers",
+  path: "/careers",
+};
+const SUPPORT: MenuType = {
+  name: "support",
+  path: "/support",
+};
+const PRIVACY_POLICY: MenuType = {
+  name: "privacy policy",
+  path: "/privacyPolicy",
+};
+
+export const LARGE_MENU_LIST: MenuType[] = [
+  ABOUT,
+  CONTACT,
+  BLOG,
+  CAREERS,
+  SUPPORT,
+  PRIVACY_POLICY,
 ];
