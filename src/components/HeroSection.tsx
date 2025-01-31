@@ -4,7 +4,7 @@ import IntroMobile from "../assets/images/bg-intro-mobile.svg";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex flex-col space-y-10 pb-20">
+    <div className="relative flex flex-col space-y-10">
       {/** Image Section */}
       <div className="relative flex justify-center">
         {/** Intro shapes */}

@@ -3,7 +3,7 @@ import PerkList from "./PerkList";
 
 const PerksSection = () => {
   return (
-    <div className="bg-neutral-very-light-gray py-20 flex flex-col space-y-16">
+    <div className=" flex flex-col space-y-16">
       <div className="wrapper">
         <div className="text-center space-y-6 flex flex-col items-center">
           {/** Title */}
