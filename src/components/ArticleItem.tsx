@@ -3,9 +3,9 @@ import { ArticleType } from "../types/articleType";
 const ArticleItem = (props: { article: ArticleType }) => {
   return (
     <div className="bg-white rounded-lg flex flex-col">
-      <div>
+      <div className="h-52">
         <img
-          className="w-full rounded-t-lg"
+          className="w-full h-full object-cover rounded-t-lg "
           src={props.article.thumbnail.path}
           alt={props.article.thumbnail.alt}
         />
@@ -16,11 +16,11 @@ const ArticleItem = (props: { article: ArticleType }) => {
           By {props.article.author}
         </div>
         {/** Title */}
-        <h4 className="text-primary-dark-blue text-">
+        <h4 className="text-primary-dark-blue line-clamp-2 overflow-ellipsis">
           By {props.article.title}
         </h4>
         {/** Content */}
-        <div className="text-neutral-grayish-blue  text-xs">
+        <div className="text-neutral-grayish-blue text-xs line-clamp-4 overflow-ellipsis">
           {props.article.content}
         </div>
       </div>

@@ -3,7 +3,7 @@ import { PerkType } from "../types/perkType";
 
 const PerkItem = (props: { perk: PerkType }) => {
   return (
-    <div className="flex flex-col space-y-4 items-center justify-center text-center">
+    <div className="flex flex-col space-y-4 items-center justify-center text-center md:text-left md:items-start">
       <div>
         <img src={props.perk.icon.path} alt={props.perk.icon.alt} />
       </div>
