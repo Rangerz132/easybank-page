@@ -5,7 +5,7 @@ const PerksSection = () => {
     <div className=" flex flex-col space-y-16 wrapper">
       <div className="text-center space-y-6 flex flex-col items-center md:text-left md:items-start">
         {/** Title */}
-        <h2 className="text-3xl text-primary-dark-blue max-w-xs">
+        <h2 className="text-3xl text-primary-dark-blue max-w-xs md:max-w-screen">
           Why choose Easybank?
         </h2>
         {/** Description */}

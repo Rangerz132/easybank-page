@@ -4,7 +4,7 @@ import IntroMobile from "../assets/images/bg-intro-mobile.svg";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex flex-col space-y-10">
+    <div className="relative flex flex-col space-y-10 md:flex-row-reverse md:space-y-0 ">
       {/** Image Section */}
       <div className="relative flex justify-center">
         {/** Intro shapes */}
@@ -14,12 +14,12 @@ const HeroSection = () => {
           className="absolute top-0 left-0 w-full -z-10"
         />
         {/** Mockups */}
-        <img src={Mockups} alt="Mockups" className="relative z-10 wrapper" />
+        <img src={Mockups} alt="Mockups" className="relative z-10 wrapper " />
       </div>
 
       {/** Content Section */}
-      <div className="relative z-20 wrapper ">
-        <div className="flex flex-col items-center justify-center text-center space-y-8">
+      <div className="relative z-20 ">
+        <div className="flex flex-col items-center justify-center text-center space-y-8 md:items-start md:text-left wrapper">
           {/** Title */}
           <h1 className="text-4xl text-primary-dark-blue">
             Next generation <br /> digital banking

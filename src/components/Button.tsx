@@ -6,7 +6,7 @@ const Button = (props: {
   return (
     <button
       onClick={props.onButtonClick}
-      className={`py-3 px-8 capitalize text-white bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan rounded-full cursor-pointer ${props.className}`}
+      className={`py-3 px-8 capitalize text-white bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan rounded-full cursor-pointer hover:opacity-50 transition-all ${props.className}`}
     >
       {props.text}
     </button>
