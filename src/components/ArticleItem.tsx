@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { ArticleType } from "../types/articleType";
+import { useNavigate } from "react-router";
 
 const ArticleItem = (props: { article: ArticleType }) => {
   const [isHover, setIsHover] = useState<boolean>(false);
+  const navigate = useNavigate();
 
   return (
     <div
@@ -11,6 +13,7 @@ const ArticleItem = (props: { article: ArticleType }) => {
       }`}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      onClick={() => navigate(`articles/${props.article.id}`)}
     >
       <div className="h-52">
         <img

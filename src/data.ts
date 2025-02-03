@@ -60,6 +60,7 @@ export const PERKS: PerkType[] = [
 ];
 
 const ARTICLE_1: ArticleType = {
+  id: "1",
   author: "Claire Robinson",
   title: "Receive money in any currency with no fees",
   content:
@@ -70,6 +71,7 @@ const ARTICLE_1: ArticleType = {
   },
 };
 const ARTICLE_2: ArticleType = {
+  id: "2",
   author: "Wilson Hutton",
   title: "Treat yourself without worrying about money",
   content:
@@ -80,6 +82,7 @@ const ARTICLE_2: ArticleType = {
   },
 };
 const ARTICLE_3: ArticleType = {
+  id: "3",
   author: "Wilson Hutton",
   title: "Take your Easybank card wherever you go",
   content:
@@ -90,6 +93,7 @@ const ARTICLE_3: ArticleType = {
   },
 };
 const ARTICLE_4: ArticleType = {
+  id: "4",
   author: "Claire Robinson",
   title: "Our invite-only Beta accounts are now live!",
   content:
