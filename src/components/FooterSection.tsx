@@ -5,8 +5,8 @@ import Button from "./Button";
 
 const FooterSection = () => {
   return (
-    <div className="wrapper">
-      <div className="grid grid-cols-1 space-y-10 md:grid-cols-4 ">
+    <div className="wrapper ">
+      <div className="grid grid-cols-1 space-y-10 md:grid-cols-4  md:space-y-0">
         <div className="flex flex-col items-center justify-center space-y-10">
           {/** Logo */}
           <div>
@@ -25,7 +25,7 @@ const FooterSection = () => {
         </div>
 
         {/** Menu */}
-        <div className="grid grid-cols-1 space-y-4 text-center md:grid-cols-2  md:text-left">
+        <div className="grid grid-cols-1 space-y-4 text-center md:grid-cols-2 md:text-left ">
           {LARGE_MENU_LIST.map((menuItem) => (
             <Link to={menuItem.path} key={menuItem.name}>
               <div className="capitalize text-white  hover:text-primary-lime-green transition-all cursor-pointer">
@@ -34,7 +34,7 @@ const FooterSection = () => {
             </Link>
           ))}
         </div>
-        <div className="flex flex-col items-center justify-center space-y-10 md:items-end md:col-start-4">
+        <div className="grid grid-cols-1 space-y-10 md:items-end md:col-start-4">
           {/** Button */}
           <Button text={"Request invite"} onButtonClick={() => {}} />
           {/** Copyright */}
