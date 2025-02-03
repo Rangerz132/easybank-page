@@ -154,6 +154,11 @@ export const MEDIAS: MediaType[] = [
   INSTAGRAM,
 ];
 
+const HOME: MenuType = {
+  name: "home",
+  path: "/",
+};
+
 const ABOUT: MenuType = {
   name: "about",
   path: "/about",
@@ -186,4 +191,12 @@ export const LARGE_MENU_LIST: MenuType[] = [
   CAREERS,
   SUPPORT,
   PRIVACY_POLICY,
+];
+
+export const SMALL_MENU_LIST: MenuType[] = [
+  HOME,
+  ABOUT,
+  CONTACT,
+  BLOG,
+  CAREERS,
 ];

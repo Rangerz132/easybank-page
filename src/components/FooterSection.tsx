@@ -36,7 +36,9 @@ const FooterSection = () => {
         </div>
         <div className="grid grid-cols-1 space-y-10 md:items-end md:col-start-4">
           {/** Button */}
-          <Button text={"Request invite"} onButtonClick={() => {}} />
+          <div className="text-center md:text-right">
+            <Button text={"Request invite"} onButtonClick={() => {}} />
+          </div>
           {/** Copyright */}
           <div className="text-center text-neutral-grayish-blue md:text-right">
             © Easybank. All Rights Reserved
