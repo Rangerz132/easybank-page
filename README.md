@@ -31,4 +31,4 @@ npm run dev
 
 ## Media
 
-![](src/assets/design/desktop-design.jpg.png)
+![](src/assets/design/desktop-design.jpg)
