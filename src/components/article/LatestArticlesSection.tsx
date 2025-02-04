@@ -1,4 +1,4 @@
-import { LATEST_ARTICLES } from "../data";
+import { LATEST_ARTICLES } from "../../data";
 import ArticlesList from "./ArticleList";
 
 const LatestArticlesSection = () => {

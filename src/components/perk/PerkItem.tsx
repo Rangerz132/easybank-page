@@ -1,5 +1,4 @@
-import React from "react";
-import { PerkType } from "../types/perkType";
+import { PerkType } from "../../types/perkType";
 
 const PerkItem = (props: { perk: PerkType }) => {
   return (

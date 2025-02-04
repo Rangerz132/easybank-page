@@ -1,4 +1,4 @@
-import { PERKS } from "../data";
+import { PERKS } from "../../data";
 import PerkItem from "./PerkItem";
 
 const PerkList = () => {

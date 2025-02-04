@@ -1,13 +1,14 @@
 import { useState } from "react";
 import FooterSection from "../components/FooterSection";
 import HeroSection from "../components/HeroSection";
-import LatestArticlesSection from "../components/LatestArticlesSection";
+
 import Menu from "../components/Menu";
 import Nav from "../components/Nav";
 import Overlay from "../components/Overlay";
-import PerksSection from "../components/PerksSection";
 import { OverlayContext } from "../contexts/OverlayContext";
 import { MenuContext } from "../contexts/MenuContext";
+import PerksSection from "../components/perk/PerksSection";
+import LatestArticlesSection from "../components/article/LatestArticlesSection";
 
 function Home() {
   const [overlayContext, setOverlayContext] = useState<boolean>(false);
@@ -28,7 +29,6 @@ function Home() {
               <Menu />
             </div>
           </div>
-
           <div className="pb-20">
             <HeroSection />
           </div>

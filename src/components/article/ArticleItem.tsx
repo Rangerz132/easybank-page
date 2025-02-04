@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { ArticleType } from "../types/articleType";
 import { useNavigate } from "react-router";
+import { ArticleType } from "../../types/articleType";
 
 const ArticleItem = (props: { article: ArticleType }) => {
   const [isHover, setIsHover] = useState<boolean>(false);

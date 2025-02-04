@@ -1,4 +1,4 @@
-import { ArticleType } from "../types/articleType";
+import { ArticleType } from "../../types/articleType";
 import ArticleItem from "./ArticleItem";
 
 const ArticlesList = (props: { articleList: ArticleType[] }) => {
